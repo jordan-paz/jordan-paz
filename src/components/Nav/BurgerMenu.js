@@ -13,6 +13,9 @@ const Button = styled.button`
   :focus {
     outline: 0;
   }
+  @media only screen and (min-width: 700px) {
+    display: none;
+  }
 `
 
 export default () => (

@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     background-color: #212121;
     color: #fff;
     padding: 40px;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
   }
   a {

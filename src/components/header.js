@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
-import MenuButton from "./menuButton"
 import logo from "../images/logo.png"
+import Nav from "./Nav"
 
 const HeaderWrapper = styled.header`
   display: flex;
@@ -22,7 +22,7 @@ export default () => {
     <HeaderWrapper>
       <Logo src={logo} />
       <Title>Jordan Paz</Title>
-      <MenuButton />
+      <Nav />
     </HeaderWrapper>
   )
 }
