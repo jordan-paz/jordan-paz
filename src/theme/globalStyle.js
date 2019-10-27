@@ -8,6 +8,9 @@ export const GlobalStyle = createGlobalStyle`
     font-family: Montserrat, sans-serif;
     background-color: #212121;
     color: #fff;
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
   }
   a {
     text-decoration: none;
