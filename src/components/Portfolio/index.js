@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import Projects from "./Projects"
 
 const Heading = styled.h2`
   font-family: Roboto;
@@ -7,4 +8,9 @@ const Heading = styled.h2`
   margin-top: 60px;
 `
 
-export default () => <Heading>My work</Heading>
+export default () => (
+  <>
+    <Heading>My work</Heading>
+    <Projects />
+  </>
+)
